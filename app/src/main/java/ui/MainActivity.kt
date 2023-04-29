@@ -1,9 +1,11 @@
-package com.example.mvvm
+package ui
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import data.MainViewModel
+import com.example.mvvm.R
 import com.example.mvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

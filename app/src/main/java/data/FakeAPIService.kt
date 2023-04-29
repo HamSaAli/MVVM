@@ -1,4 +1,4 @@
-package com.example.mvvm
+package data
 
 class FakeAPIService {
     private val wisdomList = listOf<Wisdom>(
@@ -8,7 +8,7 @@ class FakeAPIService {
         Wisdom("لا تنتظر الفرص بل اصنعها","8/1/2012"),
     )
 
-    fun getRandomWisdom(): Wisdom{
+    fun getRandomWisdom(): Wisdom {
         val random = ((Math.random()) * wisdomList.size).toInt()
         return wisdomList[random]
     }

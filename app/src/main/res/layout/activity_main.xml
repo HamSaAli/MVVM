@@ -6,13 +6,13 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.mvvm.MainViewModel" />
+            type="data.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context="ui.MainActivity">
 
         <TextView
             android:id="@+id/text_username"

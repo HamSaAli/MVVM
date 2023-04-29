@@ -1,4 +1,4 @@
-package com.example.mvvm
+package data
 
 class MainRepository {
     private val api = FakeAPIService()
