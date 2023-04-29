@@ -5,21 +5,21 @@ import com.google.gson.annotations.SerializedName
 
 data class Jokes(
     @SerializedName("category")
-    val category: String,
+    val category: String?,
     @SerializedName("delivery")
-    val delivery: String,
+    val delivery: String?,
     @SerializedName("error")
-    val error: Boolean,
+    val error: Boolean?,
     @SerializedName("flags")
-    val flags: Flags,
+    val flags: Flags?,
     @SerializedName("id")
-    val id: Int,
+    val id: Int?,
     @SerializedName("lang")
-    val lang: String,
+    val lang: String?,
     @SerializedName("safe")
-    val safe: Boolean,
+    val safe: Boolean?,
     @SerializedName("setup")
-    val setup: String,
+    val setup: String?,
     @SerializedName("type")
-    val type: String
+    val type: String?,
 )

@@ -57,5 +57,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_date" />
+
+        <TextView
+            android:id="@+id/text_joke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="22sp"
+            android:text="@{viewModel.randomJoke.delivery}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_wisdom" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
